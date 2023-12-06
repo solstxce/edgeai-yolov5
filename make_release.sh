@@ -33,7 +33,7 @@ git stash
 git checkout release
 
 #remove --squash to keep history
-git merge --allow-unrelated-histories -X theirs main --squash
+git merge --allow-unrelated-histories -X theirs master --squash
 
 # remove internal files
 find . -name *.pth -delete
@@ -53,7 +53,7 @@ git add -u
 git commit -a -m 'release commit'
 
 #git push
-#git push github release:main
+#git push github release:master
 
 #git checkout main
 
